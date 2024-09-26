@@ -14,16 +14,19 @@ A **Django/python** project that allows users to share, discuss, rate, like book
 - Book recommendation depending on users bookshelf
 - Multi model search engine. You can search Books, Users, and News and Events in a single search input
 
-
 # Installation
-
-
 Run the following commands
+- pip install virtualenv
+-   # For Windows
+python -m venv venv
+
+# For Unix-like systems
+python3 -m venv venv
+
+- venv\Scripts\activate
+- venv\Scripts\activate
 
 - `pip install -r requirements.txt`
 - `python manage.py runserver`
 
-Finally go to this address http://127.0.0.1:8000
-
-## Feel free to contribute 👨‍💻👨‍💻
 
